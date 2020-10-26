@@ -11,7 +11,7 @@ const server = new ApolloServer({
 
 mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
+  useUnifiedTopology: true
 })
 
 export default server
